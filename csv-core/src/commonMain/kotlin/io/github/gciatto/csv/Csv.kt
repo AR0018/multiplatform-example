@@ -88,3 +88,6 @@ expect fun parseCsvFile(
     delimiter: Char = DEFAULT_DELIMITER,
     comment: Char = DEFAULT_COMMENT
 ): Table
+
+// TODO: implement this function for the different platforms (JVM, JavaScript, Python)
+expect fun printTable(table: Table, path: String)
